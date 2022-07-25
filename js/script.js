@@ -128,7 +128,7 @@ $(document).ready(function () {
 
 //countdown
 
-let date = new Date('Jul 21 2022 00:00:00');
+let date = new Date('Jul 29 2022 00:00:00');
 
 function counts() {
   let now = new Date();
