@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>MADESHKAF</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header main-header">
+    <div class="container header-container">
+        <div class="header__inner">
+            <div class="header__top">
+                <a class="header__logo" href="#">
+                    <picture>
+                        <source srcset="img/logo.webp" type="image/webp">
+                        <img class="header__logo-img" src="img/logo.png" alt="">
+                    </picture>
+                </a>
+                <div class="header__nav-block">
+                    <div class="header__nav-mobile mobile-nav">
+                        <div class="mobile-nav__btn">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                        </div>
+                    </div>
+                    <nav class="header__nav header-nav">
+                        <div class="header-nav__close">
+                        </div>
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#about">О нас</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#catalog">Каталог</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#materials-section">Материалы</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#cost-test"><span>Рассчитать</span>
+                                    <span>стоимость</span></a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#reviews">Отзывы</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="#contacts">Контакты</a>
+                            </li>
+                            <li class="header-nav__item contacts-item">
+                                <a class="header-nav__link" href="tel:+375259199290">+375259199290</a>
+                                <p class="header-nav__timetable">Пн-Вс 9:00-21:00</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="header__info">
+                    <h1 class="header__title">Шкафы на заказ</h1>
+                    <p class="header__subtitle">По заявке с сайта скидка 10% каждому покупателю</p>
+                    <div class="header__countdown countdown">
+                        <p class="countdown__title">До конца скидки осталось:</p>
+                        <div class="countdown__inner">
+                            <div class="countdown__item">
+                                <div class="countdown__days countdown__num" id="d"></div>
+                                <p class="countdown__name">Дни</p>
+                            </div>
+                            <div class="countdown__item">
+                                <div class="countdown__hours countdown__num" id="h"></div>
+                                <p class="countdown__name">Часы</p>
+                            </div>
+                            <div class="countdown__item">
+                                <div class="countdown__mins countdown__num" id="m"></div>
+                                <p class="countdown__name">Мин</p>
+                            </div>
+                            <div class="countdown__item">
+                                <div class="countdown__secs countdown__num" id="s"></div>
+                                <p class="countdown__name">Сек</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="header__form header-form _form">
+                        <input class="header-form__input _phone _req" type="tel" placeholder="Введите номер телефона">
+                        <button class="header-form__btn btn">Получить скидку</button>
+                    </form>
+                    <div class="header__popup-succeed popup-succeed">
+                        <div class="popup-succeed__inner">
+                            <h4 class="popup-succeed__title">Спасибо что выбираете нас!</h4>
+                            <button class="popup-succeed__close btn">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__socials header-socials">
+                    <div class="header-socials__links">
+                        <a class="header-socials__link" href="#">
+                            <picture>
+                                <source srcset="img/viber.svg" type="image/webp">
+                                <img class="header-socials__ico" src="img/viber.svg" alt="">
+                            </picture>
+                        </a>
+                        <a class="header-socials__link" href="#">
+                            <picture>
+                                <source srcset="img/telegram.svg" type="image/webp">
+                                <img class="header-socials__ico" src="img/telegram.svg" alt="">
+                            </picture>
+                        </a>
+                        <a class="header-socials__link" href="#">
+                            <picture>
+                                <source srcset="img/whatsapp.svg" type="image/webp">
+                                <img class="header-socials__ico" src="img/whatsapp.svg" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="header-socials__contacts">
+                        <a class="header-socials__item" href="tel:+375259199290">+375259199290</a>
+                        <p class="header-socials__item">Пн-Вс 9:00-21:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</header>
+        <main class="main">
+            <section class="cost cost-test" id="cost">
+                <div class="container">
+                    <div class="cost__inner">
+                        <div class="cost__image">
+                            <div class="cost__image-inner">
+                                <picture>
+                                    <source media="(max-width:830px)" srcset="img/cost-1mobile.jpg">
+                                    <img src="img/cost-1.jpg" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cost__descr cost-descr">
+                            <h2 class="cost-descr__title title">Узнайте стоимость мебели</h2>
+                            <p class="cost-descr__text">Ответь на вопросы,получи скидку и бесплатный дизайн проект</p>
+                            <button class="cost-descr__btn btn test-btn">Пройти тест</button>
+                        </div>
+                    </div>
+                    <div class="cost__question cost-type">
+                        <div class="cost-type__inner cost__question__inner">
+                            <h3 class="cost-type__title test-title">Какой тип шкафа вам нужен?</h3>
+                            <div class="cost-type__items">
+                                <label class="cost-type__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-type">
+                                    <span class="cost-type__label-inner test-name">
+                                        <picture class="cost-type__img">
+                                            <source media="(max-width:800px)" srcset="img/cost-type-1mobile.jpg">
+                                            <img src="img/cost-type-1.jpg" alt="">
+                                        </picture>
+                                        <span class="cost-type__name">Корпусный шкаф</span>
+                                    </span>
+                                </label>
+                                <label class="cost-type__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-type">
+                                    <span class="cost-type__label-inner test-name">
+                                        <picture class="cost-type__img">
+                                            <source media="(max-width:800px)" srcset="img/cost-type-2mobile.jpg">
+                                            <img src="img/cost-type-2.jpg" alt="">
+                                        </picture>
+                                        <span class="cost-type__name">Встроенный шкаф</span>
+                                    </span>
+                                </label>
+                                <label class="cost-type__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-type">
+                                    <span class="cost-type__label-inner test-name">
+                                        <picture class="cost-type__img">
+                                            <source media="(max-width:800px)" srcset="img/cost-type-3mobile.jpg">
+                                            <img src="img/cost-type-3.jpg" alt="">
+                                        </picture>
+                                        <span class="cost-type__name">Угловой шкаф</span>
+                                    </span>
+                                </label>
+                                <label class="cost-type__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-type">
+                                    <span class="cost-type__label-inner test-name">
+                                        <picture class="cost-type__img">
+                                            <source media="(max-width:800px)" srcset="img/cost-type-4mobile.jpg">
+                                            <img src="img/cost-type-4.jpg" alt="">
+                                        </picture>
+                                        <span class="cost-type__name">Нужен совет мастера</span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="cost__bottom cost-bottom cost-type__bottom">
+                                <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size"> 0р</span></p>
+                                <div class="cost-bottom__btns">
+                                    <a class="cost-bottom__close btn-white cost-btn close-btn" href="#cost">Закрыть</a>
+                                        <a class="cost-bottom__next btn cost-btn inactive-btn" href="#cost">Далее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cost__question cost-size">
+                        <div class="cost-size__inner cost__question__inner">
+                            <h3 class="cost-size__title test-title">Знаете ли вы размеры желаемого шкафа-купе?</h3>
+                            <div class="cost-size__items">
+                                <div class="cost-size__image">
+                                    <picture class="cost-size__img">
+                                        <source media="(max-width:600px)" srcset="img/cost-size__mobile.jpg">
+                                        <img src="img/cost-size.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="cost-size__inputs">
+                                    <label class="cost-test__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-size" data-id="size-known">
+                                        <span class="cost-test__name test-name">Знаю,могу сообщить</span>
+                                    </label>
+                                    <label class="cost-test__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-size"
+                                            data-id="size-known-img">
+                                        <span class="cost-test__name test-name">Знаю,могу прислать эскизы с
+                                            размерами</span>
+                                    </label>
+                                    <label class="cost-test__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-size" data-id="size-unknown">
+                                        <span class="cost-test__name test-name">Не знаю, нужно сделать замеры</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="cost__bottom cost-bottom">
+                                <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size">15р</span></p>
+                                <div class="cost-bottom__btns">
+                                    <a class="cost-bottom__close btn-white cost-btn mobile-close close-btn"
+                                        href="#cost">Закрыть</a>
+                                    <a class="cost-bottom__prev btn cost-btn" href="#cost">Назад</a>
+                                    <a class="cost-bottom__next btn cost-btn inactive-btn" href="#cost">Далее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cost__question cost-compartments">
+                        <div class="cost-compartments__inner cost__question__inner">
+                            <h3 class="cost-compartments__title test-title">Сколько отделений хотите в шкафу?</h3>
+                            <div class="cost-compartments__items">
+                                <div class="cost-compartments__inputs">
+                                    <label class="cost-compartments__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-compartments"
+                                            data-id="compartments-1">
+                                        <span class="cost-test__name test-name">1 отделение</span>
+                                    </label>
+                                    <label class="cost-compartments__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-compartments"
+                                            data-id="compartments-2">
+                                        <span class="cost-test__name test-name">2 отделения</span>
+                                    </label>
+                                    <label class="cost-compartments__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-compartments"
+                                            data-id="compartments-3">
+                                        <span class="cost-test__name test-name">3 отделения</span>
+                                    </label>
+                                    <label class="cost-compartments__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-compartments"
+                                            data-id="compartments-4">
+                                        <span class="cost-test__name test-name">4 отделения</span>
+                                    </label>
+                                    <label class="cost-compartments__label test-label">
+                                        <input class="cost-test__input" type="radio" name="cost-compartments"
+                                            data-id="compartments-consult">
+                                        <span class="cost-test__name test-name">Пока не знаю, нужна консультация</span>
+                                    </label>
+                                </div>
+                                <div class="cost-compartments__image">
+                                    <picture class="cost-compartments__img">
+                                        <source media="(max-width:600px)" srcset="img/cost-compartments__mobile.jpg">
+                                        <img src="img/cost-compartments.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="cost__bottom cost-bottom">
+                                <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size">30р</span></p>
+                                <div class="cost-bottom__btns">
+                                    <a class="cost-bottom__close btn-white cost-btn mobile-close close-btn"
+                                        href="#cost">Закрыть</a>
+                                    <a class="cost-bottom__prev btn cost-btn" href="#cost">Назад</a>
+                                    <button class="cost-bottom__next btn cost-btn inactive-btn">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cost__popup cost-popup _form">
+                        <div class="cost__popup-inner">
+                            <h4 class="cost__popup-title">Ваша <span>скидка</span> составляет: 30р</h4>
+                            <p class="cost__popup-text">Введите ваш номер телефона, чтобы мы могли прислать вам
+                                скидку и 3D дизайн-проект бесплатно. Если данных будет не достаточно, специалист
+                                свяжется с вами для уточнения.</p>
+                            <form class="cost__popup-form ">
+                                <input class="cost__popup-input _phone _req" type="tel"
+                                    placeholder="Введите номер телефона">
+                                <button class="cost__popup-btn btn">Получить скидку</button>
+                            </form>
+                            <p class="cost__close-x">X</p>
+                        </div>
+                    </div>
+                    <div class="cost__popup-succeed popup-succeed">
+                        <div class="popup-succeed__inner">
+                            <h4 class="popup-succeed__title">Спасибо что выбираете нас!</h4>
+                            <button class="popup-succeed__close btn close-btn">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__block">
+                            <h2 class="about__title title">О нас</h2>
+                            <p class="about__text">Мы рады видеть вас на нашем сайте, здесь представлены примеры наших
+                                работ и мебель, которую мы можем изготовить, в том числе по вашим индивидуальным
+                                запросам. Мы поможем сделать вашу квартиру, дом или офис более комфортным,
+                                функциональным и привлекательным. В производстве мебели мы используем лучшие материалы и
+                                современное оборудование, чтобы создавать по-настоящему красивую, удобную и качественную
+                                мебель.</p>
+                            <div class="about__mobile about-mobile">
+                                <p class="about-mobile__text">Мы рады видеть вас на нашем сайте, здесь представлены
+                                    примеры наших работ и мебель, которую мы можем изготовить, в том числе по вашим
+                                    индивидуальным запросам.</p>
+                                <p class="about-mobile__all-text">Мы поможем сделать вашу квартиру, дом или офис более
+                                    комфортным, функциональным и привлекательным. В производстве мебели мы используем
+                                    лучшие материалы и современное оборудование, чтобы создавать по-настоящему красивую,
+                                    удобную и качественную мебель.</p>
+                                <button class="about-mobile__more-btn more-btn">Смотреть ещё</button>
+                            </div>
+                        </div>
+                        <div class="about__block">
+                            <h2 class="about__subtitle">Почему более 14 лет клиенты выбирают нас:</h2>
+                            <div class="about__items">
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-1mobile.png">
+                                        <img src="img/about-1.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Рассрочки</p>
+                                </div>
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-2mobile.png">
+                                        <img src="img/about-2.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Заводские цены</p>
+                                </div>
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-3mobile.png">
+                                        <img src="img/about-3.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Оперативные сроки</p>
+                                </div>
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-4mobile.png">
+                                        <img src="img/about-4.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Акции, скидки, бонусы</p>
+                                </div>
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-5mobile.png">
+                                        <img src="img/about-5.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Европейское качество</p>
+                                </div>
+                                <div class="about__item about-item">
+                                    <picture class="about-item__img">
+                                        <source media="(max-width:400px)" srcset="img/about-6mobile.png">
+                                        <img src="img/about-6.png" alt="">
+                                    </picture>
+                                    <p class="about-item__title">Бесплатная 3d визуализация</p>
+                                </div>
+                            </div>
+                            <div class="about__descr">
+                                <p class="about__descr-text">Возможность рассрочки от нашей компании с 0% переплат!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="catalog-sections sections">
+                <div class="container">
+                    <div class="sections__inner" id="catalog">
+                        <h2 class="sections__title title">Каталог</h2>
+                        <div class="sections__items">
+                            <div class="sections-item closet">
+                                <div class="closet-wrapper">
+                                    <div class="closet__inner sections-item__inner">
+                                        <picture>
+                                            <source srcset="img/closet.webp" type="image/webp">
+                                            <img class="closet__image" src="img/closet.jpg" alt="">
+                                        </picture>
+                                        <h3 class="sections-item__title closet__title">Шкаф-купе</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sections-item wardrobe">
+                                <div class="wardrobe-wrapper">
+                                    <div class="wardrobe__inner sections-item__inner">
+                                        <picture class="wardrobe__image">
+                                            <source media="(max-width:400px)" srcset="img/wardrobe-mobile2.jpg">
+                                            <source media="(max-width:900px)" srcset="img/wardrobe-mobile1.jpg">
+                                            <img src="img/wardrobe.jpg" alt="">
+                                        </picture>
+                                        <h3 class="sections-item__title wardrobe__title">Шкаф с распашными дверями</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sections-item kitchen">
+                                <div class="kitchen-wrapper">
+                                    <div class="kitchen__inner sections-item__inner">
+                                        <picture>
+                                            <source srcset="img/kitchen.webp" type="image/webp">
+                                            <img class="kitchen__image" src="img/kitchen.jpg" alt="">
+                                        </picture>
+                                        <h3 class="sections-item__title kitchen__title">Кухни</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="materials" id="materials-section">
+                <div class="container">
+                    <div class="materials__inner">
+                        <h2 class="materials__title title">Современные материалы</h2>
+                        <div class="materials__tabs tabs">
+                            <div class="tabs__nav">
+                                <label class="tabs__label">
+                                    <input type="radio" name="tabs" checked="checked" data-tab="materials">
+                                    <span class="tabs__item">Материалы</span>
+                                </label>
+                                <label class="tabs__label">
+                                    <input type="radio" name="tabs" data-tab="furniture">
+                                    <span class="tabs__item">Фурнитура</span>
+                                </label>
+                            </div>
+                            <div class="tabs__body">
+                                <div class="tabs__slider tabs-slider" id="materials">
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/ldsp.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/ldsp.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Лдсп</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/glass.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/glass.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Стекло</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/mdf.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/mdf.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Мдф</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/ldsp.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/ldsp.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Лдсп</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/glass.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/glass.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Стекло</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/mdf.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/mdf.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Мдф</p>
+                                    </div>
+                                </div>
+                                <div class="tabs__slider tabs-slider tabs-slider--hidden" id="furniture">
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/glass.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/glass.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Стекло</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/ldsp.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/ldsp.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Лдсп</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/mdf.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/mdf.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Мдф</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/glass.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/glass.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Стекло</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/ldsp.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/ldsp.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Лдсп</p>
+                                    </div>
+                                    <div class="tabs-slider__item">
+                                        <picture>
+                                            <source srcset="img/mdf.webp" type="image/webp">
+                                            <img class="tabs-slider__img" src="img/mdf.jpg" alt="">
+                                        </picture>
+                                        <p class="tabs-slider__text">Мдф</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offers">
+                <div class="container">
+                    <div class="offers__inner">
+                        <h2 class="offers__title title">Специальные предложения</h2>
+                        <div class="offers__talbe">
+                            <div class="catalog-item ">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-1.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-1.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф Riviera/1</a>
+                                    <a class="catalog-item__price" href="product-card.html">1000p</a>
+                                </div>
+                                <div class="catalog-item__sale hire">Хит продаж</div>
+                            </div>
+                            <div class="catalog-item">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-2.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-2.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф Comfort/5</a>
+                                    <a class="catalog-item__price sale-price" href="product-card.html">900p<span class="old-price">1800p</span></a>
+                                </div>
+                                <div class="catalog-item__sale">-50%</div>
+                            </div>
+                            <div class="catalog-item">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-3.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-3.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф WingLine</a>
+                                    <a class="catalog-item__price sale-price" href="product-card.html">840p<span class="old-price">1200p</span></a>
+                                </div>
+                                <div class="catalog-item__sale">-30%</div>
+                            </div>
+                            <div class="catalog-item">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-4.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-4.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф Riviera/5</a>
+                                    <a class="catalog-item__price hire-price" href="product-card.html">80p/мес<span class="hire-period">24 мес</span></a>
+                                </div>
+                                <div class="catalog-item__sale hire">Рассрочка</div>
+                            </div>
+                            <div class="catalog-item">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-5.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-5.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф Comfort/3</a>
+                                    <a class="catalog-item__price sale-price" href="product-card.html">420p<span class="old-price">700p</span></a>
+                                </div>
+                                <div class="catalog-item__sale">-40%</div>
+                            </div>
+                            <div class="catalog-item">
+                                <a class="catalog-item__img-link" href="product-card.html">
+                                    <picture>
+                                        <source srcset="img/sale-catalog-6.webp" type="image/webp">
+                                        <img class="catalog-item__img" src="img/sale-catalog-6.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <div class="catalog-item__info">
+                                    <a class="catalog-item__name" href="product-card.html">Шкаф WingLine/8</a>
+                                    <a class="catalog-item__price sale-price" href="product-card.html">510p<span class="old-price">600p</span></a>
+                                </div>
+                                <div class="catalog-item__sale">-15%</div>
+                            </div>
+                        </div>
+                        <div class="offers__more">
+                            <a class="offers__more-link more-btn" href="catalog.html">Смотреть ещё</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stocks">
+                <div class="container">
+                    <div class="stocks__inner">
+                        <h2 class="stocks__title title">Акции</h2>
+                        <p class="stocks__subtitle">Узнай первым об акциях и скидках</p>
+                        <picture>
+                            <source srcset="img/phone.webp" type="image/webp">
+                            <img class="stocks__img" src="img/phone.png" alt="">
+                        </picture>
+                        <form class="stocks__form stocks-form _form">
+                            <input class="stocks-form__input _phone-mail _req" type="text"
+                                placeholder="Введите номер телефона или email">
+                            <button class="stocks-form__btn btn">Подписаться</button>
+                        </form>
+                        <div class="stocks__popup-succeed popup-succeed">
+                            <div class="popup-succeed__inner">
+                                <h4 class="popup-succeed__title">Спасибо что выбираете нас!</h4>
+                                <button class="popup-succeed__close btn">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <div class="reviews__inner">
+                        <h2 class="reviews__title title" id="reviews">Отзывы</h2>
+                        <div class="reviews__slider reviews-slider">
+                            <div class="reviews-slider__item">
+                                <p class="reviews-slider__item-name">@prlxlr13</p>
+                                <p class="reviews-slider__item-text">Хочу выразить свою благодарность всему коллективу
+                                    компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали
+                                    кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне
+                                    нет, новая кухня – всегда радость для хозяйки!</p>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <p class="reviews-slider__item-name">@prlxlr14</p>
+                                <p class="reviews-slider__item-text">Хочу выразить свою благодарность всему коллективу
+                                    компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали
+                                    кухню, порадовали своей работой, все чисто, аккуратно и быстро.</p>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <p class="reviews-slider__item-name">@prlxlr195</p>
+                                <p class="reviews-slider__item-text">Хочу выразить свою благодарность всему коллективу
+                                    компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали
+                                    кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне
+                                    нет, новая кухня – всегда радость для хозяйки!</p>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <p class="reviews-slider__item-name">@pfsfrl3</p>
+                                <p class="reviews-slider__item-text">Хочу выразить свою благодарность всему коллективу
+                                    компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали
+                                    кухню, порадовали своей работой, все чисто, аккуратно и быстро.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fabrication">
+                <div class="fabrication__inner">
+                    <div class="container">
+                        <h2 class="fabrication__title title">Производство</h2>
+                    </div>
+                    <div class="fabrication__descr fabrication-descr">
+                        <div class="container fabrication-container">
+                            <div class="fabrication-descr__inner">
+                                <div class="fabrication-descr__item">
+                                    <div class="fabrication-descr__numbers">
+                                        <span class="fabrication-descr__number">1</span>
+                                        <span class="fabrication-descr__zero">0</span>
+                                    </div>
+                                    <span class="fabrication-descr__text">Минимальный опыт работы наших монтажников — 10
+                                        лет</span>
+                                </div>
+                                <div class="fabrication-descr__item">
+                                    <div class="fabrication-descr__numbers">
+                                        <span class="fabrication-descr__number">2</span>
+                                        <span class="fabrication-descr__zero">0</span>
+                                    </div>
+                                    <span class="fabrication-descr__text">Любые размеры, цвет, дизайн и фурнитура</span>
+                                </div>
+                                <div class="fabrication-descr__item">
+                                    <div class="fabrication-descr__numbers">
+                                        <span class="fabrication-descr__number">3</span>
+                                        <span class="fabrication-descr__zero">0</span>
+                                    </div>
+                                    <span class="fabrication-descr__text">Установка в удобные для Вас день и
+                                        время</span>
+                                </div>
+                                <div class="fabrication-descr__item">
+                                    <div class="fabrication-descr__numbers">
+                                        <span class="fabrication-descr__number">4</span>
+                                        <span class="fabrication-descr__zero">0</span>
+                                    </div>
+                                    <span class="fabrication-descr__text">Сроки изготовления 5-15 дней</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work-steps">
+                <div class="container">
+                    <div class="work-steps__inner">
+                        <h2 class="work-steps__title title">Как мы работаем</h2>
+                        <div class="work-steps__items">
+                            <div class="work-steps__column">
+                                <div class="work-steps__item work-step-1">
+                                    <picture>
+                                        <source srcset="img/step-1.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-1.png" alt="">
+                                    </picture>
+                                    <div class="work-steps__item-text ">Заказать выезд дизайнера</div>
+                                </div>
+                                <div class="work-steps__item work-step-4">
+                                    <picture>
+                                        <source srcset="img/step-4.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-4.png" alt="">
+                                    </picture>
+                                    <p class="work-steps__item-text">Оформление договора</p>
+                                </div>
+                                <div class="work-steps__item work-step-5">
+                                    <picture>
+                                        <source srcset="img/step-5.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-5.png" alt="">
+                                    </picture>
+                                    <p class="work-steps__item-text">Производство</p>
+                                </div>
+                            </div>
+                            <div class="work-steps__column">
+                                <div class="work-steps__item work-step-2">
+                                    <picture>
+                                        <source srcset="img/step-2.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-2.png" alt="">
+                                    </picture>
+                                    <p class="work-steps__item-text">Обмер</p>
+                                </div>
+                                <div class="work-steps__item work-step-3">
+                                    <picture>
+                                        <source srcset="img/step-3.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-3.png" alt="">
+                                    </picture>
+                                    <p class="work-steps__item-text">Построение проекта</p>
+                                </div>
+                                <div class="work-steps__item">
+                                    <picture>
+                                        <source srcset="img/step-6.webp" type="image/webp">
+                                        <img class="work-steps__item-img" src="img/step-6.png" alt="">
+                                    </picture>
+                                    <p class="work-steps__item-text">Установка</p>
+                                </div>
+                            </div>
+                            <div class="work-steps__mobile mobile-steps">
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step1-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step1-mobile.png" alt=""></picture>
+                                    <p class="mobile-steps__item-text">Заказать выезд дизайнера</p>
+                                </div>
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step2-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step2-mobile.png" alt="">
+                                    </picture>
+                                    <p class="mobile-steps__item-text">Обмер</p>
+                                </div>
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step3-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step3-mobile.png" alt="">
+                                    </picture>
+                                    <p class="mobile-steps__item-text">Построение проекта</p>
+                                </div>
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step4-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step4-mobile.png" alt="">
+                                    </picture>
+                                    <p class="mobile-steps__item-text">Оформление договора</p>
+                                </div>
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step5-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step5-mobile.png" alt="">
+                                    </picture>
+                                    <p class="mobile-steps__item-text">Производство</p>
+                                </div>
+                                <div class="mobile-steps__item ">
+                                    <picture>
+                                        <source srcset="img/step6-mobile.webp" type="image/webp">
+                                        <img class="mobile-steps__item-img" src="img/step6-mobile.png" alt="">
+                                    </picture>
+                                    <p class="mobile-steps__item-text">Установка</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cost cost-test" id="cost-test">
+                <div class="cost__main-bg">
+                    <div class="cost__container">
+                        <div class="cost__main cost-main">
+                            <picture>
+                                <source srcset="img/cost-2.webp" type="image/webp">
+                                <img class="cost-main__img" src="img/cost-2.jpg" alt="">
+                            </picture>
+                            <div class="cost-main__inner">
+                                <h2 class="cost-main__title title">Узнайте стоимость мебели</h2>
+                                <div class="cost-main__mobile">
+                                    <picture>
+                                        <source srcset="img/cost-2mobile.webp" type="image/webp">
+                                        <img class="cost-main__mobile-img" src="img/cost-2mobile.jpg" alt="">
+                                    </picture>
+                                    <p class="cost-main__subtitle">Ответь на вопросы,получи скидку и бесплатный дизайн проект</p>
+                                </div>
+                                <button class="cost-main__btn btn test-btn">Пройти тест</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost__question cost-type">
+                    <div class="cost-type__inner cost__question__inner">
+                        <h3 class="cost-type__title test-title">Какой тип шкафа вам нужен?</h3>
+                        <div class="cost-type__items">
+                            <label class="cost-type__label test-label">
+                                <input class="cost-test__input" type="radio" name="cost-type">
+                                <span class="cost-type__label-inner test-name">
+                                    <picture class="cost-type__img">
+                                        <source media="(max-width:800px)" srcset="img/cost-type-1mobile.jpg">
+                                        <img src="img/cost-type-1.jpg" alt="">
+                                    </picture>
+                                    <span class="cost-type__name">Корпусный шкаф</span>
+                                </span>
+                            </label>
+                            <label class="cost-type__label test-label">
+                                <input class="cost-test__input" type="radio" name="cost-type">
+                                <span class="cost-type__label-inner test-name">
+                                    <picture class="cost-type__img">
+                                        <source media="(max-width:800px)" srcset="img/cost-type-2mobile.jpg">
+                                        <img src="img/cost-type-2.jpg" alt="">
+                                    </picture>
+                                    <span class="cost-type__name">Встроенный шкаф</span>
+                                </span>
+                            </label>
+                            <label class="cost-type__label test-label">
+                                <input class="cost-test__input" type="radio" name="cost-type">
+                                <span class="cost-type__label-inner test-name">
+                                    <picture class="cost-type__img">
+                                        <source media="(max-width:800px)" srcset="img/cost-type-3mobile.jpg">
+                                        <img src="img/cost-type-3.jpg" alt="">
+                                    </picture>
+                                    <span class="cost-type__name">Угловой шкаф</span>
+                                </span>
+                            </label>
+                            <label class="cost-type__label test-label">
+                                <input class="cost-test__input" type="radio" name="cost-type">
+                                <span class="cost-type__label-inner test-name">
+                                    <picture class="cost-type__img">
+                                        <source media="(max-width:800px)" srcset="img/cost-type-4mobile.jpg">
+                                        <img src="img/cost-type-4.jpg" alt="">
+                                    </picture>
+                                    <span class="cost-type__name">Нужен совет мастера</span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="cost__bottom cost-bottom cost-type__bottom">
+                            <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size"> 0р</span></p>
+                            <div class="cost-bottom__btns">
+                                <a class="cost-bottom__close btn-white cost-btn close-btn" href="#cost-test">Закрыть</a>
+                                    <a class="cost-bottom__next btn cost-btn inactive-btn" href="#cost-test">Далее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost__question cost-size">
+                    <div class="cost-size__inner cost__question__inner">
+                        <h3 class="cost-size__title test-title">Знаете ли вы размеры желаемого шкафа-купе?</h3>
+                        <div class="cost-size__items">
+                            <div class="cost-size__image">
+                                <picture class="cost-size__img">
+                                    <source media="(max-width:600px)" srcset="img/cost-size__mobile.jpg">
+                                    <img src="img/cost-size.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="cost-size__inputs">
+                                <label class="cost-test__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-size" data-id="size-known">
+                                    <span class="cost-test__name test-name">Знаю,могу сообщить</span>
+                                </label>
+                                <label class="cost-test__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-size"
+                                        data-id="size-known-img">
+                                    <span class="cost-test__name test-name">Знаю,могу прислать эскизы с
+                                        размерами</span>
+                                </label>
+                                <label class="cost-test__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-size" data-id="size-unknown">
+                                    <span class="cost-test__name test-name">Не знаю, нужно сделать замеры</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="cost__bottom cost-bottom">
+                            <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size">15р</span></p>
+                            <div class="cost-bottom__btns">
+                                <a class="cost-bottom__close btn-white cost-btn mobile-close close-btn"
+                                    href="#cost-test">Закрыть</a>
+                                <a class="cost-bottom__prev btn cost-btn" href="#cost-test">Назад</a>
+                                <a class="cost-bottom__next btn cost-btn inactive-btn" href="#cost-test">Далее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost__question cost-compartments">
+                    <div class="cost-compartments__inner cost__question__inner">
+                        <h3 class="cost-compartments__title test-title">Сколько отделений хотите в шкафу?</h3>
+                        <div class="cost-compartments__items">
+                            <div class="cost-compartments__inputs">
+                                <label class="cost-compartments__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-compartments"
+                                        data-id="compartments-1">
+                                    <span class="cost-test__name test-name">1 отделение</span>
+                                </label>
+                                <label class="cost-compartments__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-compartments"
+                                        data-id="compartments-2">
+                                    <span class="cost-test__name test-name">2 отделения</span>
+                                </label>
+                                <label class="cost-compartments__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-compartments"
+                                        data-id="compartments-3">
+                                    <span class="cost-test__name test-name">3 отделения</span>
+                                </label>
+                                <label class="cost-compartments__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-compartments"
+                                        data-id="compartments-4">
+                                    <span class="cost-test__name test-name">4 отделения</span>
+                                </label>
+                                <label class="cost-compartments__label test-label">
+                                    <input class="cost-test__input" type="radio" name="cost-compartments"
+                                        data-id="compartments-consult">
+                                    <span class="cost-test__name test-name">Пока не знаю, нужна консультация</span>
+                                </label>
+                            </div>
+                            <div class="cost-compartments__image">
+                                <picture class="cost-compartments__img">
+                                    <source media="(max-width:600px)" srcset="img/cost-compartments__mobile.jpg">
+                                    <img src="img/cost-compartments.jpg" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cost__bottom cost-bottom">
+                            <p class="cost-bottom__sale">Ваша скидка: <span class="sale-size">30р</span></p>
+                            <div class="cost-bottom__btns">
+                                <a class="cost-bottom__close btn-white cost-btn mobile-close close-btn"
+                                    href="#cost-test">Закрыть</a>
+                                <a class="cost-bottom__prev btn cost-btn" href="#cost-test">Назад</a>
+                                <button class="cost-bottom__next btn cost-btn inactive-btn">Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost__popup cost-popup _form">
+                    <div class="cost__popup-inner">
+                        <h4 class="cost__popup-title">Ваша <span>скидка</span> составляет: 30р</h4>
+                        <p class="cost__popup-text">Введите ваш номер телефона, чтобы мы могли прислать вам
+                            скидку и 3D дизайн-проект бесплатно. Если данных будет не достаточно, специалист
+                            свяжется с вами для уточнения.</p>
+                        <form class="cost__popup-form ">
+                            <input class="cost__popup-input _phone _req" type="tel"
+                                placeholder="Введите номер телефона">
+                            <button class="cost__popup-btn btn">Получить скидку</button>
+                        </form>
+                        <p class="cost__close-x">X</p>
+                    </div>
+                </div>
+                <div class="cost__popup-succeed popup-succeed">
+                    <div class="popup-succeed__inner">
+                        <h4 class="popup-succeed__title">Спасибо что выбираете нас!</h4>
+                        <button class="popup-succeed__close btn close-btn">Закрыть</button>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts__inner">
+                        <h2 class="contacts__title title" id="contacts">Контакты</h2>
+                        <div class="contacts__block">
+                            <div class="contacts__column">
+                                <div class="contacts__row">
+                                    <div class="contacts__row-text">
+                                        <span>Адрес офиса:</span>
+                                        <span>г.Минск ул П Бровки 45</span>
+                                    </div>
+                                </div>
+                                <div class="contacts__row">
+                                    <div class="contacts__row-text">
+                                        <span>Номер телефона:</span>
+                                        <span>
+                                            <a href="tel:+375259199290" class="contacts__phone">+375-25-919-92-90</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="contacts__row">
+                                    <div class="contacts__row-text">
+                                        <span>Email:</span>
+                                        <span>
+                                            <a href="mailto:info@gmail.com" class="contacts__mail">info@gmail.com</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="contacts__row">
+                                    <div class="contacts__row-text">
+                                        <span>Режим работы:</span>
+                                        <span>пн-вс 9:00-21:00</span>
+                                    </div>
+                                </div>
+                                <div class="contacts__row">
+                                    <div class="contacts__row-socials">
+                                        <a class="contacts__socials-link" href="#">
+                                            <picture>
+                                                <source srcset="img/viber-brown.webp" type="image/webp">
+                                                <img class="contacts__socials-img" src="img/viber-brown.png" alt="">
+                                            </picture>
+                                        </a>
+                                        <a class="contacts__socials-link" href="#">
+                                            <picture>
+                                                <source srcset="img/telegram-brown.webp" type="image/webp">
+                                                <img class="contacts__socials-img" src="img/telegram-brown.png" alt="">
+                                            </picture>
+                                        </a>
+                                        <a class="contacts__socials-link" href="#">
+                                            <picture>
+                                                <source srcset="img/whatsapp-brown.webp" type="image/webp">
+                                                <img class="contacts__socials-img" src="img/whatsapp-brown.png" alt="">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contacts__column">
+                                <div class="contacts__form contacts-form ">
+                                    <h3 class="contacts-form__title">Заказать консультацию</h3>
+                                    <form class="contacts-form__inner _form">
+                                        <input class="contacts-form__input _phone _req" type="tel"
+                                            placeholder="Номер телефона">
+                                        <input class="contacts-form__input _mail _req" type="email" placeholder="Email">
+                                        <textarea class="contacts-form__input contacts-form__textarea _req"
+                                            placeholder="Комментарии"></textarea>
+                                        <button class="contacts-form__btn btn">Заказать</button>
+                                    </form>
+                                    <div class="contacts__popup-succeed popup-succeed">
+                                        <div class="popup-succeed__inner">
+                                            <h4 class="popup-succeed__title">Спасибо что выбираете нас!</h4>
+                                            <button class="popup-succeed__close btn">Закрыть</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <a class="footer__logo" href="#">
+                <picture>
+                    <source srcset="img/footer-logo.webp" type="image/webp">
+                    <img class="footer__logo-img" src="img/footer-logo.png" alt="">
+                </picture>
+            </a>
+            <div class="footer__nav footer-nav">
+                <ul class="footer-nav__inner">
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#about">О нас</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#catalog">Каталог</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#materials-section">Материалы</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#cost-test">Цены</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__map">
+                <picture>
+                    <source srcset="img/footer-logo__mobile.webp" type="image/webp">
+                    <img class="footer__mobile-logo" src="img/footer-logo__mobile.png" alt="">
+                </picture>
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A796e66c306df56af805b28dfd2b0581d7c1c545ecf8281be1eab2e1de5b13800&amp;source=constructor" width="595" height="252"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.elevatezoom.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
